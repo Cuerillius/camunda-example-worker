@@ -1,0 +1,22 @@
+{
+  "components": [
+    {
+      "text": "The random number is: {{randomNum}}",
+      "type": "text",
+      "layout": {
+        "row": "Row_12iqgun",
+        "columns": null
+      },
+      "id": "Field_10sr8x6"
+    }
+  ],
+  "type": "default",
+  "id": "display",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.31.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 18
+}

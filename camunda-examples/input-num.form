@@ -1,0 +1,28 @@
+{
+  "components": [
+    {
+      "label": "Guess number",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1auxkim",
+        "columns": null
+      },
+      "id": "Field_1qejfn5",
+      "key": "guess",
+      "description": "Guess a number from 1 to 5",
+      "validate": {
+        "required": true,
+        "pattern": "^[1-5]$"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "input-num",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.31.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 18
+}
